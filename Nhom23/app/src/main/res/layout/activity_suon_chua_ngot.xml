@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SuonChuaNgot"
+    android:background="@drawable/suonchuangot">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sườn xào chua ngọt"
+        android:textStyle="italic"
+        android:textSize="45dp"
+        android:layout_gravity="center"
+        android:id="@+id/tv1"
+        android:textColor="@color/black"
+        android:textAllCaps="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nguyên liệu:"
+        android:id="@+id/tv2"
+        android:textColor="@color/design_default_color_background"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/design_default_color_background"
+        android:text="- 500g sườn"
+        android:id="@+id/tv3"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv4"
+        android:textColor="@color/design_default_color_background"
+        android:text="- -15ml rượu gia vị (hoặc rượu gạo)"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/design_default_color_background"
+        android:text="- 20ml nước tương"
+        android:id="@+id/tv5"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/design_default_color_background"
+        android:text="- 45ml giấm"
+        android:id="@+id/tv6"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/design_default_color_background"
+        android:text="- 45g đường"
+        android:id="@+id/tv7"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/design_default_color_background"
+        android:text="- 3g muối"
+        android:id="@+id/tv8"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv9"
+        android:textColor="@color/design_default_color_background"
+        android:text="- 3g vừng"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/design_default_color_background"
+        android:text="Cách làm:"
+        android:id="@+id/tv10"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv11"
+        android:textColor="@color/design_default_color_background"
+        android:text="- Đun sôi nước, thả sườn vào nấu trong 30 phút thì vớt sườn ra, giữ lại nước dùng."
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv12"
+        android:textColor="@color/design_default_color_background"
+        android:text="- Hòa rượu gia vị , nước tương và 30ml giấm, ướp sườn trong 20 phút"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv13"
+        android:textColor="@color/design_default_color_background"
+        android:text="- Chiên sơ sườn đã ướp tới khi có màu vàng nhạt"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv14"
+        android:textColor="@color/design_default_color_background"
+        android:text="- Cho sườn và nước dùng vào nồi, thêm đường và đun cho tới khi cô lại còn khoảng nửa bát nước. Cho muối vào nồi."
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv15"
+        android:textColor="@color/design_default_color_background"
+        android:text="- Cho nhỏ lửa và đun thêm 10 phút, thêm 15ml giấm hoặc điều chỉnh độ chua ngọt theo khẩu vị."
+        android:textSize="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Quay về "
+        android:id="@+id/btback"/>
+</LinearLayout>
