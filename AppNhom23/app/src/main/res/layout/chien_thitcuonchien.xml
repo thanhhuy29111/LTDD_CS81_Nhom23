@@ -9,8 +9,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:text="Mì xào gà"
-        android:id="@+id/mx1"
+        android:text="Thịt cuộn phô mai chiên xù"
+        android:id="@+id/tccx1"
         android:textStyle="bold"
         android:textSize="50dp"
         android:layout_gravity="center"
@@ -20,34 +20,39 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Nguyên liệu:
-    \n- 2 gói mì trứng (khoảng 700g)
-    \n- 3 cây cần tây
-    \n- Nửa củ cà rốt
-    \n- Hành lá
-    \n- Thịt đùi hoặc ức gà
-    \n- Tỏi băm
-    \n- 2 quả ớt \n"
-        android:id="@+id/mx2"
+    \n- Pho mai
+    \n- Thịt nạc cốc lếch
+    \n- Gia vị
+    \n- Sà lách
+    \n- Trứng
+    \n- Bột năng
+    \n- Bột chiên xù
+    \n- Mayonnaise
+
+
+         \n"
+        android:id="@+id/tccx2"
         android:textColor="@color/black"
         android:textSize="20dp"/>
     <ImageView
-        android:id="@+id/hinhmovail"
+        android:id="@+id/htccx"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:scaleType="fitCenter"
-        android:src="@drawable/xao_mixao">
+        android:src="@drawable/chien_thitcuonchienxu">
     </ImageView>
 
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/mx3"
+        android:id="@+id/tccx3"
         android:textColor="@color/black"
         android:text="Cách làm:
-\n Cần tây rửa sạch, thái thành khúc ngắn. Cà rốt thái sợi. Bắp cải, hành lá thái nhỏ. Thịt gà đùi luộc chín rồi cắt thành khúc nhỏ vừa ăn. Luộc mì rồi để cho ráo nước. Bắp chảo lên bếp, cho dầu ăn vào rồi cho tỏi băm vào, phi đều. Cho bắp cải, cần tây, cà rốt đã được thái nhỏ vào chảo, đảo đều. Sau đó cho dầu hào, nước tương đảo đều tay.
-\n Cuối cùng bạn cho mì đã được ráo nước vào hỗn hợp, đảo đều trên bếp. Sau đó cho hành hoa, ớt đập dập vào nữa là hoàn thành.
-Bạn trút mì xào gà ra đĩa và thưởng thức.
+Thịt rửa sạch để ráo dùng chày hay dụng cụ dập thịt dập cho mỏng ướp chút muối chút tiêu.phô mai xắt cọng vừa miếng thịt.để pho mai trong cuộn thịt lại.đập trứng khuấy tan.lăn thịt qua bột năng rồi nhúng qua trứng sau đó lăn qua bột chiên xù.bắc chảo dầu hơi nhiều tí chảo nóng cho thịt vào chiên lửa vừa cho thịt bên trong chín
+Chiên vàng lấy ra để ráo cho sà lách vào dõa cho thịt chiên xù 1 bên xịt mayonnaise lên.
+
+
 \n"
         android:textSize="20dp"/>
 

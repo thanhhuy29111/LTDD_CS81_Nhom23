@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Cá nạc chiên xù"
+        android:id="@+id/nccx1"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:layout_gravity="center"
+        android:textColor="@color/material_on_surface_emphasis_high_type"
+        android:textAllCaps="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nguyên liệu:
+    \n- Nạc cá
+    \n- Bột mì
+    \n- 1 bát Bột chiên xù
+    \n- 1-2 quả trứng
+
+
+         \n"
+        android:id="@+id/nccx2"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+    <ImageView
+        android:id="@+id/hncxc"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/chien_naccachienxu">
+    </ImageView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nccx3"
+        android:textColor="@color/black"
+        android:text="Cách làm:
+\n Cá ướp tiêu và muối 10 phút trên thớt (Để nguyên miếng)
+Cắt cá thành miếng vừa ăn, không nên cắt quá dày mà nên cắt vừa phải để ướp thành những viên tròn vừa miệng
+Cho dầu vào chảo, thêm một ít bơ sẽ khiến dầu thơm hơn.
+Lăn cá qua bột mì, trứng và bột chiên xù, đợi dầu nóng rồi cho cá vào chiên
+Rắc thêm vừng hoặc rau thơm tùy thích. Chấm với tương ớt.
+
+
+\n"
+        android:textSize="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/btback2"
+        android:text="Quay về "/>
+</LinearLayout>
