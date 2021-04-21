@@ -9,8 +9,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:text="Mì xào gà"
-        android:id="@+id/mx1"
+        android:text="THỊT KHO TÀU"
+        android:id="@+id/tkt1"
         android:textStyle="bold"
         android:textSize="50dp"
         android:layout_gravity="center"
@@ -20,14 +20,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Nguyên liệu:
-    \n- 2 gói mì trứng (khoảng 700g)
-    \n- 3 cây cần tây
-    \n- Nửa củ cà rốt
-    \n- Hành lá
-    \n- Thịt đùi hoặc ức gà
-    \n- Tỏi băm
-    \n- 2 quả ớt \n"
-        android:id="@+id/mx2"
+    \n- Thịt lợn ba chỉ 500g.
+    \n- Trứng cút 10 quả, 3 quả trứng gà
+    \n- Nước mắm ngon
+    \n- Nước dừa tươi (01 quả)
+    \n- Tỏi, ớt, hành lá, đường
+   \n- Gia vị kho thịt: Muối, mì chính, hạt tiêu, dầu ăn."
+        android:id="@+id/tkt2"
         android:textColor="@color/black"
         android:textSize="20dp"/>
     <ImageView
@@ -42,13 +41,13 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/mx3"
+        android:id="@+id/tkt3"
         android:textColor="@color/black"
         android:text="Cách làm:
-\n Cần tây rửa sạch, thái thành khúc ngắn. Cà rốt thái sợi. Bắp cải, hành lá thái nhỏ. Thịt gà đùi luộc chín rồi cắt thành khúc nhỏ vừa ăn. Luộc mì rồi để cho ráo nước. Bắp chảo lên bếp, cho dầu ăn vào rồi cho tỏi băm vào, phi đều. Cho bắp cải, cần tây, cà rốt đã được thái nhỏ vào chảo, đảo đều. Sau đó cho dầu hào, nước tương đảo đều tay.
-\n Cuối cùng bạn cho mì đã được ráo nước vào hỗn hợp, đảo đều trên bếp. Sau đó cho hành hoa, ớt đập dập vào nữa là hoàn thành.
-Bạn trút mì xào gà ra đĩa và thưởng thức.
-\n"
+\n - Thịt ba chỉ mua về cạo sạch lông, rửa sạch rồi ngâm trong nước muối ấm khoảng 5 phút khử mùi hôi. Sau khi làm sạch, thái miếng vuông to.
+
+\n - Cho thịt lợn thái miếng vào tô sau đó ướp cùng 2 thìa nước mắm, 1 thìa đường, ½ thìa muối, mì chính, thêm tỏi băm, hạt tiêu, 1 thìa dầu ăn sau đó đảo đều để ngấm trong 30 phút.
+\n - Trong lúc chờ thịt ngấm gia vị, cho trứng gà và trứng cút vào nồi luộc chín, sau đó bóc sạch vỏ để ra bát. "
         android:textSize="20dp"/>
 
     <Button

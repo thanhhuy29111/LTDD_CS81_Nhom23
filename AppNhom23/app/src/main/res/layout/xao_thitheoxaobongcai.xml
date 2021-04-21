@@ -9,8 +9,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:text="Mì xào gà"
-        android:id="@+id/mx1"
+        android:text="Thịt heo xào bông cải  "
+        android:id="@+id/thxbc1"
         android:textStyle="bold"
         android:textSize="50dp"
         android:layout_gravity="center"
@@ -20,14 +20,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Nguyên liệu:
-    \n- 2 gói mì trứng (khoảng 700g)
-    \n- 3 cây cần tây
-    \n- Nửa củ cà rốt
-    \n- Hành lá
-    \n- Thịt đùi hoặc ức gà
-    \n- Tỏi băm
-    \n- 2 quả ớt \n"
-        android:id="@+id/mx2"
+    \n- 500g bông cải xanh
+    \n- 200g thịt thăn heo
+    \n- 2 trái cà chua
+    \n- Vài tép tỏi;Hành lá, ngò rí
+    \n- Gia vị: Muối, tiêu, đường, nước mắm, dầu ăn.
+     \n"
+        android:id="@+id/thxbc2"
         android:textColor="@color/black"
         android:textSize="20dp"/>
     <ImageView
@@ -35,20 +34,19 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:scaleType="fitCenter"
-        android:src="@drawable/xao_mixao">
+        android:src="@drawable/Xao_thitheoxaobongcai">
     </ImageView>
 
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/mx3"
+        android:id="@+id/thxbc3"
         android:textColor="@color/black"
         android:text="Cách làm:
-\n Cần tây rửa sạch, thái thành khúc ngắn. Cà rốt thái sợi. Bắp cải, hành lá thái nhỏ. Thịt gà đùi luộc chín rồi cắt thành khúc nhỏ vừa ăn. Luộc mì rồi để cho ráo nước. Bắp chảo lên bếp, cho dầu ăn vào rồi cho tỏi băm vào, phi đều. Cho bắp cải, cần tây, cà rốt đã được thái nhỏ vào chảo, đảo đều. Sau đó cho dầu hào, nước tương đảo đều tay.
-\n Cuối cùng bạn cho mì đã được ráo nước vào hỗn hợp, đảo đều trên bếp. Sau đó cho hành hoa, ớt đập dập vào nữa là hoàn thành.
-Bạn trút mì xào gà ra đĩa và thưởng thức.
-\n"
+\n Thịt thăn heo rửa sạch xắt lát mỏng vừa ăn, ướp với 2 muỗng cà phê nước mắm, tỏi băm, ¼ muỗng cà phê tiêu say.Bông cải xanh tách nhánh nhỏ, rửa sạch, ngâm nước muối loãng khoảng 10 phút. Cà chua rửa sạch, xắt miếng nhỏ. Tỏi bóc vỏ, đập dập.
+
+\n Bắc chảo lên bếp, cho dầu vào phi thơm tỏi. Cho thịt heo đã ướp vào xào nahnh tay, lửa lớn. Khi thịt chín, cho bông cải và cà chua vào tiếp tục xào chín. Sau đó cho hành lá vào trộn đều.Múc bông cải ra đĩa, rắc thêm ít tiêu lên trên mặt. Dọn kèm chén xì dầu với vài lát ớt để chấm.  \n"
         android:textSize="20dp"/>
 
     <Button
