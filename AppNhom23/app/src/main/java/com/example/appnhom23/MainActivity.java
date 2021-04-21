@@ -2,7 +2,10 @@ package com.example.appnhom23;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 
@@ -18,18 +21,9 @@ public class MainActivity extends AppCompatActivity {
         ListView listView;
         ArrayList<DanhMuc> arrayList;
         AdapterDanhMuc adapter;
-        // mon an
-        ListView listViewMA;
-        ArrayList<MonAn> arrayListMA;
-        AdapterDanhMuc adapterMA;
-
         // dm
         listView = findViewById(R.id.listviewDM);
         arrayList = new ArrayList<>();
-
-        // mon an
-        listViewMA = findViewById(R.id.listviewMonAn);
-        arrayListMA = new ArrayList<>();
 
         //dm
         arrayList.add(new DanhMuc("MÓN XÀO",R.drawable.monxao));
@@ -40,6 +34,18 @@ public class MainActivity extends AppCompatActivity {
         adapter = new AdapterDanhMuc(MainActivity.this,R.layout.layout_danhmuc,arrayList);
         listView.setAdapter(adapter);
 
-        //mon an
+
+
+//        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+//            @Override
+//            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+//                if (position==0){
+//                    Intent intent = new Intent();
+//                    intent.setClass(MainActivity.this,xao_Mixaoga.class);
+//                    startActivity(intent);
+//                }
+//
+//            }
+//        });
     }
 }

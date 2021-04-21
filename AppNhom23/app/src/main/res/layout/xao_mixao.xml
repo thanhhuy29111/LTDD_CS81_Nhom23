@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    android:background="@drawable/Xao_MiXao">
+    tools:context=".xao_mixao">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -48,4 +48,6 @@ Bạn trút mì xào gà ra đĩa và thưởng thức.
         android:textSize="20dp"
         android:id="@+id/btback2"
         android:text="Quay về "/>
+
+
 </LinearLayout>
