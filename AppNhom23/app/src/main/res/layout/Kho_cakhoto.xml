@@ -9,8 +9,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:text="Mì xào gà"
-        android:id="@+id/mx1"
+        android:text="CÁ KHO TỘ"
+        android:id="@+id/ckt1"
         android:textStyle="bold"
         android:textSize="50dp"
         android:layout_gravity="center"
@@ -20,35 +20,36 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Nguyên liệu:
-    \n- 2 gói mì trứng (khoảng 700g)
-    \n- 3 cây cần tây
-    \n- Nửa củ cà rốt
+    \n- 1 con cá ba sa, mổ sạch, cắt khúc vừa ăn
+    \n- 4 nhánh hành lá; 4 củ hành khô; ½ muỗng cà phê cốt dừa caramel (hoặc kẹo đắng, nước hàng)
+    \n- Hạt tiêu đen; 2 quả ớt, thái lát
     \n- Hành lá
-    \n- Thịt đùi hoặc ức gà
-    \n- Tỏi băm
-    \n- 2 quả ớt \n"
-        android:id="@+id/mx2"
+    \n- Nước mắm, đường, dầu ăn vừa đủ
+    \n"
+        android:id="@+id/ckt2"
         android:textColor="@color/black"
         android:textSize="20dp"/>
     <ImageView
-        android:id="@+id/hinhmovail"
+        android:id="@+id/ckt"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:scaleType="fitCenter"
-        android:src="@drawable/xao_mixao">
+        android:src="@drawable/Kho_cakhoto">
     </ImageView>
 
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/mx3"
+        android:id="@+id/ckt3"
         android:textColor="@color/black"
         android:text="Cách làm:
-\n Cần tây rửa sạch, thái thành khúc ngắn. Cà rốt thái sợi. Bắp cải, hành lá thái nhỏ. Thịt gà đùi luộc chín rồi cắt thành khúc nhỏ vừa ăn. Luộc mì rồi để cho ráo nước. Bắp chảo lên bếp, cho dầu ăn vào rồi cho tỏi băm vào, phi đều. Cho bắp cải, cần tây, cà rốt đã được thái nhỏ vào chảo, đảo đều. Sau đó cho dầu hào, nước tương đảo đều tay.
-\n Cuối cùng bạn cho mì đã được ráo nước vào hỗn hợp, đảo đều trên bếp. Sau đó cho hành hoa, ớt đập dập vào nữa là hoàn thành.
-Bạn trút mì xào gà ra đĩa và thưởng thức.
-\n"
+\n - Hành lá rửa sạch, thái nhỏ. Hành khô bóc vỏ, thái lát. Chia đôi chỗ hành khô.
+\n - Cho phần trắng hành lá và một nửa chỗ hành khô vào cối, giã nát. Sau đó, cho hỗn hợp hành này vào bát đựng cá. Thêm cốt dừa caramel, hạt tiêu, nước mắm, đường vào trộn đều. Ướp từ 30-35 phút.
+\n - Làm nóng chảo với một chút dầu ăn, cho nửa hành khô còn lại vào phi thơm, tắt bếp
+\n - Xếp cá cùng nước ướp cá ra tộ, bật bếp, đun ở mức lửa cỡ trung bình. Sau đó, thêm hành xào thơm vào. Đun liu riu từ 30-45 phút, trong quá trình này, cứ 10 phút bạn nhẹ nhàng lật cá 1 lần.
+\n - Cuối cùng thêm ít hành lá, hạt tiêu, ớt tươi vào, đun một xíu nữa rồi tắt bếp. Cá kho tộ ăn với cơm trắng, rau củ luộc sẽ đem lại cảm giác tuyệt ngon khi thưởng thức!
+"
         android:textSize="20dp"/>
 
     <Button

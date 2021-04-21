@@ -9,8 +9,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:text="Mì xào gà"
-        android:id="@+id/mx1"
+        android:text="SƯỜN KHO DƯA"
+        android:id="@+id/skd1"
         android:textStyle="bold"
         android:textSize="50dp"
         android:layout_gravity="center"
@@ -20,35 +20,36 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Nguyên liệu:
-    \n- 2 gói mì trứng (khoảng 700g)
-    \n- 3 cây cần tây
-    \n- Nửa củ cà rốt
-    \n- Hành lá
-    \n- Thịt đùi hoặc ức gà
-    \n- Tỏi băm
-    \n- 2 quả ớt \n"
-        android:id="@+id/mx2"
+    \n- 1 bát dưa cải muối chua
+    \n- 500-600gr sườn heo
+    \n- 1 củ tỏi - 2 củ hành khô - 1-2 thìa đường - 2 thìa nước mắm - 1 chút bột nêm
+    \n- Ớt sừng, nếu thích ăn cay - Muối, tiêu, bột ngọt - Dầu ăn
+    \n"
+        android:id="@+id/skd2"
         android:textColor="@color/black"
         android:textSize="20dp"/>
     <ImageView
-        android:id="@+id/hinhmovail"
+        android:id="@+id/skd"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:scaleType="fitCenter"
-        android:src="@drawable/xao_mixao">
+        android:src="@drawable/Kho_ngheukhoto">
     </ImageView>
 
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/mx3"
+        android:id="@+id/skd3"
         android:textColor="@color/black"
         android:text="Cách làm:
-\n Cần tây rửa sạch, thái thành khúc ngắn. Cà rốt thái sợi. Bắp cải, hành lá thái nhỏ. Thịt gà đùi luộc chín rồi cắt thành khúc nhỏ vừa ăn. Luộc mì rồi để cho ráo nước. Bắp chảo lên bếp, cho dầu ăn vào rồi cho tỏi băm vào, phi đều. Cho bắp cải, cần tây, cà rốt đã được thái nhỏ vào chảo, đảo đều. Sau đó cho dầu hào, nước tương đảo đều tay.
-\n Cuối cùng bạn cho mì đã được ráo nước vào hỗn hợp, đảo đều trên bếp. Sau đó cho hành hoa, ớt đập dập vào nữa là hoàn thành.
-Bạn trút mì xào gà ra đĩa và thưởng thức.
-\n"
+\n - Sườn mua về rửa sạch rồi thấm khô, chặt sườn thành các miếng vừa ăn. Bạn có thể chần sườn sơ qua để loại bỏ chất bẩn có trong xương nhé.
+\n - Hành khô, tỏi đem bóc vỏ rồi băm nhỏ, ớt sừng thái lát vừa mỏng. Nếu dưa muối chua quá thì bạn nên rửa sơ qua cho dưa bớt chua.
+\n - Cho sườn vào âu cùng với muối, bột nêm, bột ngọt, tiêu và đảo đều, ướp 30 phút cho sườn ngấm gia vị.
+\n - Bạn đặt chảo hoặc nồi lên bếp rồi cho đường, 1 chút dầu ăn và bật bếp nấu cho nước đường chuyển màu cánh gián thì cho sườn vào xào sơ qua, miếng sườn săn lại mới cho hành tỏi băm vào cùng.
+\n - Tiếp theo bạn cho dưa chua, ớt sừng, nước mắm rồi đổ nước xâm xấp mặt sườn. Đậy vung đun cho sườn sôi lên thì hạ lửa liu riu, kho cho sườn rút cạn bớt nước, bạn nếm lại cho vừa khẩu vị gia đình.
+\n - Sườn đã mềm là có thể tắt bếp, bạn không nên kho cạn nước mà để lại 1 chút nước sền sệt ăn với cơm thì ngon tuyệt vời.
+"
         android:textSize="20dp"/>
 
     <Button

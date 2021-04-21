@@ -33,7 +33,7 @@
         android:textColor="@color/black"
         android:textSize="20dp"/>
     <ImageView
-        android:id="@+id/hinhmovail"
+        android:id="@+id/mucxaoraucu"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:scaleType="fitCenter"

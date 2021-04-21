@@ -9,8 +9,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:text="Mì xào gà"
-        android:id="@+id/mx1"
+        android:text="CÁ TRẮM KHO RIỀNG"
+        android:id="@+id/ctkr1"
         android:textStyle="bold"
         android:textSize="50dp"
         android:layout_gravity="center"
@@ -20,35 +20,36 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Nguyên liệu:
-    \n- 2 gói mì trứng (khoảng 700g)
-    \n- 3 cây cần tây
-    \n- Nửa củ cà rốt
-    \n- Hành lá
-    \n- Thịt đùi hoặc ức gà
-    \n- Tỏi băm
-    \n- 2 quả ớt \n"
-        android:id="@+id/mx2"
+    \n- Cá trắm: 600g
+    \n- Thịt ba chỉ: 200g
+    \n- Riềng củ
+    \n- Hành, răm, thì là
+    \n- Gia vị
+     \n"
+        android:id="@+id/ctkr2"
         android:textColor="@color/black"
         android:textSize="20dp"/>
     <ImageView
-        android:id="@+id/hinhmovail"
+        android:id="@+id/ctkr"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:scaleType="fitCenter"
-        android:src="@drawable/xao_mixao">
+        android:src="@drawable/Kho_catramkhorieng">
     </ImageView>
 
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/mx3"
+        android:id="@+id/ctkr3"
         android:textColor="@color/black"
         android:text="Cách làm:
-\n Cần tây rửa sạch, thái thành khúc ngắn. Cà rốt thái sợi. Bắp cải, hành lá thái nhỏ. Thịt gà đùi luộc chín rồi cắt thành khúc nhỏ vừa ăn. Luộc mì rồi để cho ráo nước. Bắp chảo lên bếp, cho dầu ăn vào rồi cho tỏi băm vào, phi đều. Cho bắp cải, cần tây, cà rốt đã được thái nhỏ vào chảo, đảo đều. Sau đó cho dầu hào, nước tương đảo đều tay.
-\n Cuối cùng bạn cho mì đã được ráo nước vào hỗn hợp, đảo đều trên bếp. Sau đó cho hành hoa, ớt đập dập vào nữa là hoàn thành.
-Bạn trút mì xào gà ra đĩa và thưởng thức.
-\n"
+\n - Cá làm sạch, để ráo nước rồi ướp với chút bột canh, bột ngọt, tiêu, xì dầu.
+\n - Cà chua thái miếng cau, ớt thái lát nhỏ, riềng cắt miếng mỏng, hành, rau răm, thì là thái nhỏ.
+\n - Thịt ba chỉ rửa sạch, thái miếng vuông. Lần lượt xếp riềng, cà chua xuống đáy nồi kho cá, tiếp đến là thịt ba chỉ, cá. Thêm 2 thìa nước mắm, 1 thìa xì dầu, ớt thái lát vào nồi kho cá rồi đặt lên bếp đun khoảng 30 phút. Trong quá trình kho cá, khi nồi bắt đầu sôi, thêm vào 1,5 bát ăn cơm nước lọc. Thắng nước đường làm nước hàng cho vào nồi kho cá.
+\n - Khi nồi kho cá cạn nước, thêm chút hành, rau răm, thì là thái nhỏ vào rồi tắt bếp. Để cá nguội bớt, sau đó cho ra đĩa, ăn với cơm nóng.
+\n - Cá kho khi ăn nguội thịt sẽ chắc, ngon hơn.
+"
         android:textSize="20dp"/>
 
     <Button

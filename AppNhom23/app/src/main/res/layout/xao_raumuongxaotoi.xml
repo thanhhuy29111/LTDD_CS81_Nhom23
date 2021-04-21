@@ -27,7 +27,7 @@
         android:textColor="@color/black"
         android:textSize="20dp"/>
     <ImageView
-        android:id="@+id/hinhmovail"
+        android:id="@+id/raumuongxaotoi"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:scaleType="fitCenter"

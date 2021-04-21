@@ -9,8 +9,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:text="THỊT KHO TÀU"
-        android:id="@+id/tkt1"
+        android:text="NGHÊU KHO TỘ"
+        android:id="@+id/nkt1"
         android:textStyle="bold"
         android:textSize="50dp"
         android:layout_gravity="center"
@@ -20,34 +20,35 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Nguyên liệu:
-    \n- Thịt lợn ba chỉ 500g.
-    \n- Trứng cút 10 quả, 3 quả trứng gà
-    \n- Nước mắm ngon
-    \n- Nước dừa tươi (01 quả)
-    \n- Tỏi, ớt, hành lá, đường
-   \n- Gia vị kho thịt: Muối, mì chính, hạt tiêu, dầu ăn."
-        android:id="@+id/tkt2"
+    \n-  Nghêu: 1,5kg (được khoảng 250gr thịt nghêu)
+    \n- 100g mỡ gáy hoặc ba chỉ phần đầu mỡ
+    \n- Hành tím, tỏi, hành lá, ớt
+    \n- Bột nêm, tiêu, nước mắm, đường, nước màu dừa.
+     \n"
+        android:id="@+id/nkt2"
         android:textColor="@color/black"
         android:textSize="20dp"/>
     <ImageView
-        android:id="@+id/hinhmovail"
+        android:id="@+id/nkt"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:scaleType="fitCenter"
-        android:src="@drawable/xao_mixao">
+        android:src="@drawable/Kho_ngheukhoto">
     </ImageView>
 
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/tkt3"
+        android:id="@+id/nkt3"
         android:textColor="@color/black"
         android:text="Cách làm:
-\n - Thịt ba chỉ mua về cạo sạch lông, rửa sạch rồi ngâm trong nước muối ấm khoảng 5 phút khử mùi hôi. Sau khi làm sạch, thái miếng vuông to.
-
-\n - Cho thịt lợn thái miếng vào tô sau đó ướp cùng 2 thìa nước mắm, 1 thìa đường, ½ thìa muối, mì chính, thêm tỏi băm, hạt tiêu, 1 thìa dầu ăn sau đó đảo đều để ngấm trong 30 phút.
-\n - Trong lúc chờ thịt ngấm gia vị, cho trứng gà và trứng cút vào nồi luộc chín, sau đó bóc sạch vỏ để ra bát. "
+\n - Nghêu ngâm nước vo gạo hoặc nước có thêm vài lát ớt cho sạch. Sau đó cho nghêu vào luộc. Khi nghêu vừa há miệng thì vớt ngay ra rổ, lấy phần thịt nghêu, rửa sạch, để ráo.
+\n - Thịt ba chỉ (hoặc mỡ gáy) rửa sạch, thái miếng nhỏ cỡ đầu ngón tay. Hành tím, tỏi bóc vỏ, đập giập, băm nhỏ. Ớt rửa sạch, bỏ cuống, đập giập. Hành lá bỏ rễ, lá úa giập, rửa sạch, phần đầu trắng đập giập xắt nhỏ còn phần xanh cắt khúc.
+\n - Ướp thịt nghêu với bột nêm, tiêu, nước màu dừa và 1/2 chỗ hành tím, tỏi, đầu hành ở trên khoảng 15-20 phút cho thịt nghêu ngấm gia vị.
+\n - Bắc nồi đất (nồi sứ) lên bếp, nồi nóng già cho thịt ba chỉ vào đảo săn cho bớt mỡ. Khi thịt săn lại cho hết chỗ hành tỏi băm còn lại vào phi thơm.
+\n - Sau đó thêm 1 thìa nước mắm, xíu đường đảo nhanh tay rồi cho thịt nghêu đã ướp cùng ớt vào kho nhỏ lửa.
+"
         android:textSize="20dp"/>
 
     <Button

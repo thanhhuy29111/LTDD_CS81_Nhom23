@@ -8,15 +8,16 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class xao_dauhunonxaobo extends AppCompatActivity {
+public class kho_ngheukhoto extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.xao_dauhunonxaobo);
-        TextView dhnxb1 = findViewById(R.id.dhnxb1);
-        TextView dhnxb2 = findViewById(R.id.dhnxb2);
-        TextView dhnxb3 = findViewById(R.id.dhnxb3);
-        ImageView dauhunonxaobo = findViewById(R.id.dauhunonxaobo);
+        setContentView(R.layout.Kho_ngheukhoto);
+        TextView nkt1 = findViewById(R.id.nkt1);
+        TextView nkt2 = findViewById(R.id.nkt2);
+        TextView nkt3 = findViewById(R.id.nkt3);
+        ImageView nkt = findViewById(R.id.nkt);
         Button bt2 = findViewById(R.id.btback2);
         bt2.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -26,4 +27,3 @@ public class xao_dauhunonxaobo extends AppCompatActivity {
         });
     }
 }
-
