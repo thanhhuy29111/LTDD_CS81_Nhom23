@@ -34,18 +34,15 @@ public class MainActivity extends AppCompatActivity {
         adapter = new AdapterDanhMuc(MainActivity.this,R.layout.layout_danhmuc,arrayList);
         listView.setAdapter(adapter);
 
-
-
-//        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-//            @Override
-//            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-//                if (position==0){
-//                    Intent intent = new Intent();
-//                    intent.setClass(MainActivity.this,xao_Mixaoga.class);
-//                    startActivity(intent);
-//                }
-//
-//            }
-//        });
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                if (position==0){
+                    Intent intent = new Intent();
+                    intent.setClass(MainActivity.this,MonXaoActivity.class);
+                    startActivity(intent);
+                }
+            }
+        });
     }
 }
