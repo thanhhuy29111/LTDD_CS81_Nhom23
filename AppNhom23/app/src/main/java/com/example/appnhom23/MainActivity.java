@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ListAdapter;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -22,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<DanhMuc> arrayList;
         AdapterDanhMuc adapter;
         // dm
-        listView = findViewById(R.id.listviewDM);
+        listView = findViewById(R.id.listviewMA);
         arrayList = new ArrayList<>();
 
         //dm
@@ -37,7 +36,11 @@ public class MainActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
+                if(position==0) {
+                    Intent intent = new Intent();
+                    intent.setClass(MainActivity.this,MonXao.class);
+                    startActivity(intent);
+                }
             }
         });
     }
