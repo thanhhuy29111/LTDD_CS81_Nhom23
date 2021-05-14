@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chien_hauchienxu">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                android:background="#f08080"
+            android:text="Hàu chiên"
+            android:textStyle="italic"
+            android:textSize="45dp"
+            android:layout_gravity="center"
+            android:id="@+id/tv1"
+            android:textColor="@color/black"
+            android:textAllCaps="true"
+            android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nguyên liệu:
+        \n - Hàu
+        \n - Bột chiên giòn
+        \n - Bột chiên xù
+        \n - Trứng gà
+        "
+                android:id="@+id/tv2"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/chien_hauchienxu"
+                android:id="@+id/hinh"
+                android:layout_height="120dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Cách làm:
+        \nBước 1: Sơ chế nguyên liệu
+        \nHàu rã đông thật ráo nước, lần lượt nhúng qua bột chiên giòn, đến trứng, đến bột chiên xù, chiên trên chảo dầu nóng, lửa vừa.
+        \nBước 2: Chế biến
+        \nRau muống luộc với muối trên lửa to, rau chín tới đổ ra rổ xối qua nước lạnh, rau để lâu cũg k bị vàng ạ. Xào thơm tỏi với tép mỡ, cho rau muống vào xào cùng ít dầu hào và nước mắm cho vừa miệng."
+                android:id="@+id/tv10"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Quay về "
+                android:id="@+id/btback"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Xao_raumuongxaotoi">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#f08080"
+                android:text="Rau muống xào tỏi"
+                android:textStyle="italic"
+                android:textSize="45dp"
+                android:layout_gravity="center"
+                android:id="@+id/tv1"
+                android:textColor="@color/black"
+                android:textAllCaps="true"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nguyên liệu: \n - 1 bó rau muống;\n - 4 nhánh tỏi;\n - Gia vị: Dầu ăn, muối, nước mắm, hạt nêm, bột ngọt."
+                android:id="@+id/tv2"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/xao_raumuongxaotoi"
+                android:id="@+id/hinh"
+                android:layout_height="200dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Cách làm:
+        \nBước 1: Sơ chế nguyên liệu
+        \nRau muống nhặt sạch, bỏ những lá úa vàng, sâu già. Sau đó, đem ngâm với nước muối loãng trong chừng 10 – 15 phút, rửa sạch nhiều lần với nước rồi vớt ra rổ để ráo.Tỏi bóc sạch lớp vỏ khô bên ngoài, đập dập và băm nhuyễn.
+        \nBước 2: Chế biến
+        \nĐun sôi một nồi nước lớn, cho chút muối vào để luộc rau muống được tươi xanh. Sau đó, cho rau muống vào luộc khoảng tầm 1 phút.Chuẩn bị một âu nước đá. Sau đó, vớt rau muống ra khỏi nước luộc rau và cho ngay sang âu nước đá. Bước này sẽ giúp món rau muống xào tỏi ăn rất giòn ngon.Bắc một chảo lớn lên bếp, cho một muỗng canh dầu ăn vào đun sôi. Sau đó, cho tỏi băm nhuyễn vào phi thơm rồi cho rau vào xào vừa chín. Nêm nếm gia vị muối, nước mắm, hạt nêm, bột ngọt cho món rao muống xào tỏi được ưng ý rồi tắt bếp."
+                android:id="@+id/tv10"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Quay về "
+                android:id="@+id/btback"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

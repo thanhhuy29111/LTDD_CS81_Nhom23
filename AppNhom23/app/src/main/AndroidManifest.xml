@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.appnhom23">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppNhom23">
+        <activity android:name=".TrangMieng_yaourtbotraicay"></activity>
+        <activity android:name=".TrangMieng_hoaquatrangmieng" />
+        <activity android:name=".TrangMieng_duahaptuyetyen" />
+        <activity android:name=".TrangMieng_bidohamduong" />
+        <activity android:name=".TrangMieng_kemchuoi" />
+        <activity android:name=".Chay_raucuonchay" />
+        <activity android:name=".Chay_nemchay" />
+        <activity android:name=".Chay_goicuonngusac" />
+        <activity android:name=".Chay_dauphucuonlalot" />
+        <activity android:name=".Chay_dauhunonsotnamtuoi" />
+        <activity android:name=".MonChay" />
+        <activity android:name=".TrangMieng" />
+        <activity android:name=".Kho_thitkhotau" />
+        <activity android:name=".Kho_suonkhodua" />
+        <activity android:name=".Kho_ngheukhoto" />
+        <activity android:name=".Kho_catramkhorieng" />
+        <activity android:name=".Kho_cakhoto" />
+        <activity android:name=".MonKho" />
+        <activity android:name=".Chien_sungachienxu" />
+        <activity android:name=".Chien_thitcuonchienxu" />
+        <activity android:name=".Chien_hauchienxu" />
+        <activity android:name=".Chien_naccachienxu" />
+        <activity android:name=".Chien_tomchienxu" />
+        <activity android:name=".MonChien" />
+        <activity android:name=".Xao_thitheoxaobongcai" />
+        <activity android:name=".Xao_Thitboxaodauhu" />
+        <activity android:name=".Xao_raumuongxaotoi" />
+        <activity android:name=".Xao_mucxaoraucu" />
+        <activity android:name=".MonXao" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

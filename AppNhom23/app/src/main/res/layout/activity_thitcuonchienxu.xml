@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chien_thitcuonchienxu">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thịt cuộn phô mai chiên xù"
+                android:background="#f08080"
+                android:textStyle="italic"
+                android:textSize="45dp"
+                android:layout_gravity="center"
+                android:id="@+id/tv1"
+                android:textColor="@color/black"
+                android:textAllCaps="true"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nguyên liệu:
+        \n - Pho mai
+        \n - Thịt nạc cốc lếch
+        \n - Gia vị
+        \n - Sà lách
+        \n - Trứng
+        \n - Bột năng
+        \n - Bột chiên xù
+        \n - Mayonnaise"
+                android:id="@+id/tv2"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/chien_thitcuonchienxu"
+                android:id="@+id/hinh"
+                android:layout_height="120dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Cách làm:
+        \nBước 1: Sơ chế nguyên liệu
+        \nThịt rửa sạch để ráo dùng chày hay dụng cụ dập thịt dập cho mỏng ướp chút muối chút tiêu.phô mai xắt cọng vừa miếng thịt.để pho mai trong cuộn thịt lại.đập trứng khuấy tan.lăn thịt qua bột năng rồi nhúng qua trứng sau đó lăn qua bột chiên xù.bắc chảo dầu hơi nhiều tí chảo nóng cho thịt vào chiên lửa vừa cho thịt bên trong chín.
+        \nBước 2: Chế biến
+        \nChiên vàng lấy ra để ráo cho sà lách vào dõa cho thịt chiên xù 1 bên xịt mayonnaise lên."
+                android:id="@+id/tv10"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Quay về "
+                android:id="@+id/btback"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

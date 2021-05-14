@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chay_nemchay">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:background="#f08080"
+                android:layout_height="wrap_content"
+                android:text="Nem chay"
+                android:textStyle="italic"
+                android:textSize="45dp"
+                android:layout_gravity="center"
+                android:id="@+id/tv1"
+                android:textColor="@color/black"
+                android:textAllCaps="true"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nguyên liệu:
+        \n - 1 bìa đậu phụ
+        \n - 1 củ khoai tây
+        \n - 1-2 củ cà rốt
+        \n - 1-2 củ hành
+        \n - Miến
+        \n - Hành lá
+        \n - Mộc nhĩ
+        \n - Tiêu, muối, đường, ớt, tỏi, dấm
+        \n - Rau sống "
+                android:id="@+id/tv2"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/chay_nemchay"
+                android:id="@+id/hinh"
+                android:layout_height="120dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Cách làm:
+        \nBước 1: Rửa sạch rau củ đã chuẩn bị.
+        \nBước 2: Ngâm mộc nhĩ trong nước lạnh từ 15-20 phút để mộc nhĩ nở ra sau đó rửa sạch và băm nhỏ.
+        \nBước 3: Băm nhỏ các nguyên liệu: hành, cà rốt, mộc nhĩ, hành lá.
+        \nBước 4: Đậu phụ ngâm trong nước nóng sau đó lấy ra và bóp nhuyễn.
+	    \nBước 5: Khoai tây gọt vỏ rồi luộc chín, rồi ta nghiền nát.
+	    \nBước 6: Miến ngâm trong nước nóng và vớt ra thái nhỏ.
+        \nBước 7: Đổ hỗn hợp các sản phẩm ta vừa băm vào chậu, rồi nêm 1 thìa muối, tiêu, hạt nêm và trộn lên để tạo vị (không đổ quá nhiều tránh khi mình chấm mắm sẽ bị mặn).
+        \nBước 8: Gói nem thành cuốn vừa phải, bắc chảo đun thật nóng dầu và cho nem vào chảo rán. Khi rán mình vặn nhỏ lửa và lật liên tục để nem vàng đều, vì nem rất dễ cháy nên cần để ý khi rán.
+        \nBước 9: Pha nước chấm: băm nhỏ ớt, tỏi. Đổ mắm, đường, dấm, ớt, tỏi, tiêu và chút nước. Khuấy đều.
+        \nBước 10: Bày nem ra đĩa và bắt đầu thưởng thức với rau sống cùng nước chấm đã chuẩn bị."
+                android:id="@+id/tv10"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Quay về "
+                android:id="@+id/btback"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
