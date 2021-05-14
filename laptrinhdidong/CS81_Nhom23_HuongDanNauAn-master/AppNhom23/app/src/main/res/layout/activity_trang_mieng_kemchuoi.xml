@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TrangMieng_kemchuoi">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#f08080"
+                android:text="Kem chuối "
+                android:textStyle="italic"
+                android:textSize="45dp"
+                android:layout_gravity="center"
+                android:id="@+id/tv1"
+                android:textColor="@color/black"
+                android:textAllCaps="true"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nguyên liệu:
+        \n - 14 trái chuối sứ chín vừa
+        \n - 450 ml sữa tươi không đường
+        \n - 1 ống vani
+        \n - 500 ml sữa đặc
+        \n - Dừa nạo khô
+        \n - Đậu phộng rang
+        \n - 30 g bột bắp
+        \n - 2 hũ sữa chua có đường"
+                android:id="@+id/tv2"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/trangmieng_kemchuoi"
+                android:id="@+id/hinh"
+                android:layout_height="120dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Cách làm:
+        \nBước 1: Bóc vỏ chuối và xắt lát dọc theo trái chuối, 1 trái có thể xắt thành 3-4 lát
+        \nBước 2: Đậu phộng rang sẩy hết vỏ và tách đôi hạt đậu phộng ra nhiều nhất có thể
+        \nBước 3: Bắc chảo lên bếp, để lửa vừa. Cho sữa tươi vào quấy một lúc cho nóng, tiếp tục cho bột bắp vào quấy cho tan
+        \nBước 4: Cho sữa đặc, sữa chua và 1/2 ống vani vào và quấy đến lúc thành hỗn hợp sệt vừa thì bắc chảo ra
+	    \nBước 5: Rải 1 lớp chuối dưới cùng, tiếp là 1 lớp dừa nạo và rắc đậu phộng lên. Sau đó đổ hỗn hợp bột sữa đã quấy vào, thành 1 lớp vừa phải. Tiếp tục xếp chuối, dừa nạo, đậu phộng lên rồi đổ hỗ hợp vào và làm thành nhiều lớp khác.
+	    \nBước 6: Sau khi bỏ đầy hộp, vỗ hộp để sữa chảy đều các lớp. Bỏ tủ lạnh khoảng 4-5 tiếng và món kem chuối siêu ngon siêu dễ làm ra đời. "
+                android:id="@+id/tv10"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Quay về "
+                android:id="@+id/btback"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

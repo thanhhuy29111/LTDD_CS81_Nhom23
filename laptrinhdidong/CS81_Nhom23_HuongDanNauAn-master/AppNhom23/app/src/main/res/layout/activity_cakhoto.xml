@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kho_cakhoto">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cá kho tộ "
+                android:textStyle="italic"
+                android:textSize="45dp"
+                android:background="#f08080"
+                android:layout_gravity="center"
+                android:id="@+id/tv1"
+                android:textColor="@color/black"
+                android:textAllCaps="true"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nguyên liệu:
+        \n - Cá khúc 1 kg
+        \n - Tiêu, riềng, xả, mắm "
+                android:id="@+id/tv2"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+
+            <ImageView
+                android:id="@+id/hinh"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:src="@drawable/kho_cakhoto" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Cách làm:
+        \nBước 1:
+        \nRửa sạch cá với muối trắng(đừng rửa dấm, rượu ảnh hưởng tưoi của cá), nước lam sạch máu, nhớt tuỷ xương sống cá chắc chắn cá sẽ không tanh.
+        \nBước 2:
+        \nƯớp 30p cá xả, gừng, hành khô, tiêu, muối, nhất định có ít mắm cá rắn chắc.
+        \nBước 3:
+        \nĐảo thịt ba chỉ xém cạnh, vớt thịt lót nồi. Mỡ phi 1 phần hành khô, xả, gừng đổ trên.
+        \nBước 4:
+        \nDùng đường thốt nốt càng ngon, không có dùng đường trắng cũng được bí quyết e cho ít dầu, nước đun keo thấy ngả màu cánh dán cho nước sao cho căn đổ ngập cá. Thêm tui nước dừa thì càng tuyệt.
+        \nBước 5:
+        \nCó nồi đất thì chuẩn kỹ thuật không có em dùng nồi lẩu, đun vừa lửa 20p xong giảm lửa lăn tăn kho 1h.
+        \nBước 6:
+        \nCá đun lần 2 sẽ ngấm và ăn cực kỳ đưa cơm thời tiết lạnh."
+                android:id="@+id/tv10"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Quay về "
+                android:id="@+id/btback"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

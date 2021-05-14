@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chien_sungachienxu">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#f08080"
+                android:text="Sụn gà chiên xù"
+                android:textStyle="italic"
+                android:textSize="45dp"
+                android:layout_gravity="center"
+                android:id="@+id/tv1"
+                android:textColor="@color/black"
+                android:textAllCaps="true"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nguyên liệu:
+        \n - 1/2 gói Bột chiên giòn
+        \n - 2 Trứng gà+ 3 thì bột mì
+        \n - 1 bát Bột chiên xù
+        \n - 200 gr Sụn gà
+        "
+                android:id="@+id/tv2"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/chien_sungachienxu"
+                android:id="@+id/hinh"
+                android:layout_height="120dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Cách làm:
+        \nBước 1:
+        \nSụn gà rửa sạch rồi cho vào trong túi zip sau đó đổ 1/2 gói bột chiên giòn vào xóc đều lên để tầm 5-10p.
+        \nBước 2:
+        \nĐập 2 quả trứng rồi trộn với bột mì đánh đều lên thành một hỗn hợp lỏng sau đó nhúng sụn gà vào hỗn hợp trứng bột mì. Tiếp đến ta nhúng qua bát bột chiên xù đã chuẩn bị mang đi chiên với dầu đã đun nóng, lúc đầu cho lửa vừa để sụn chín sau đó tăng nhiệt độ lên dần đến khi vàng đều thì vớt ra giấy thấm dầu ăn giòn sừn sựt rất lạ miệng luôn chấm với tương ớt thì ngon hết sảy ạ "
+                android:id="@+id/tv10"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Quay về "
+                android:id="@+id/btback"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

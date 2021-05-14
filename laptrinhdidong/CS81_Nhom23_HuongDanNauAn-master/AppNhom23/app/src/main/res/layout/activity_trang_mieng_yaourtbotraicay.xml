@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TrangMieng_yaourtbotraicay">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#f08080"
+                android:text="Yaourt bơ trái cây"
+                android:textStyle="italic"
+                android:textSize="45dp"
+                android:layout_gravity="center"
+                android:id="@+id/tv1"
+                android:textColor="@color/black"
+                android:textAllCaps="true"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nguyên liệu:
+        \n - 1 trái bơ chín
+        \n - 10 trái Nho Mỹ
+        \n - 6 trái vải tươi
+        \n - 1 múi Sầu riêng
+        \n - 6 trái Việt quất
+        \n - 2 muỗng Dừa sấy giòn (coconut chips)
+        \n - Sữa chua uống Lothamilk "
+                android:id="@+id/tv2"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/trangmieng_yaourtbotraicay"
+                android:id="@+id/hinh"
+                android:layout_height="120dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Cách làm:
+        \nBước 1: Cắt bơ thành khối nhỏ
+        \nBước 2: Cắt nho làm 4, bỏ hạt
+        \nBước 3: Lột trái vải, bỏ hạt, cắt nhỏ
+        \nBước 4: Xé nhỏ cơm sầu riêng
+	    \nBước 5: Cho tất cả các loại trái cây vào tô lớn, thêm dừa sấy giòn
+	    \nBước 6: Cho sữa chua vào, trộn đều, để vào ngăn đá tủ lạnh 30’
+        \nBước 6: Hãy chọn các loại trái cây bạn thích nhiều vị khác nhau... và đừng quên dừa sấy giòn nhé"
+                android:id="@+id/tv10"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Quay về "
+                android:id="@+id/btback"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

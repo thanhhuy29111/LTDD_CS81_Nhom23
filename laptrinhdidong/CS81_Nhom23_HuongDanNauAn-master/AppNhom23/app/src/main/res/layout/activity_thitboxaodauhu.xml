@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Xao_Thitboxaodauhu">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#f08080"
+                android:text="Đậu hũ non xào bò"
+                android:textStyle="italic"
+                android:textSize="45dp"
+                android:layout_gravity="center"
+                android:id="@+id/tv1"
+                android:textColor="@color/black"
+                android:textAllCaps="true"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nguyên liệu: \n - 300g thịt thăn bò;\n - 1 hộp đậu phụ non;\n - 1/2 củ cà rốt;\n - 1/2 cây súp lơ xanh;\n - 1 củ hành tây nhỏ;\n - Gia vị: Muối, dầu hào, đường, nước tương, hành lá, tỏi, hạt tiêu."
+                android:id="@+id/tv2"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/xao_thitboxaodauhu"
+                android:id="@+id/hinh"
+                android:layout_height="200dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Cách làm:
+        \nBước 1: Sơ chế nguyên liệu
+        \nThịt thăn bò rửa sạch, thái lát mỏng, ướp vào bát thịt bò một thìa nhỏ dầu hào, một ít hạt tiêu, một ít dầu ăn, trộn đều, ướp khoảng 30 phút.Hành tây, súp lơ xanh, cà rốt cạo vỏ, rửa sạch. Súp lơ xanh tước bỏ bớt phần xơ cứng, cắt khúc ngắn. Cà rốt thái khoanh tròn, hành tây bổ múi cau. Đậu phụ non rửa sạch, thái hạt lựu lớn.
+        \nBước 2: Chế biến
+        \nĐun nóng ba thìa nhỏ dầu ăn, phi tỏi thơm, cho thịt bò vào xào nhanh tay lửa lớn, thịt bò chín tái đổ ra bớt, để qua một bên.Dùng lại chảo đó, cho cà rốt, súp lơ xanh vào xào, rưới vào một thìa xanh xì dầu, một ít dầu hào, một ít đường và một ít nước lọc, nấu sôi.Nấu từ 6 -9 phút, ăn thử phần cà rốt chín thì cho tiếp đậu phụ non, hành tây vào đun cùng, cầm tay cầm của chảo lắc đều, đậy kín nắp, đun sôi thêm khoảng 10 – 13 phút.Nêm nếm lại gia vị cho vừa ăn, cuối cùng cho bát thịt bò đã xào vào nấu cùng, nấu tiếp khoảng 3 phút thì tắt bếp, thêm hành lá thái nhỏ vào, múc ra đĩa, rắc lên bề mặt một ít hạt tiêu dùng làm món mặn ăn với cơm."
+                android:id="@+id/tv10"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Quay về "
+                android:id="@+id/btback"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

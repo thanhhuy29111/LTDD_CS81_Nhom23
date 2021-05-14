@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kho_ngheukhoto">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#f08080"
+                android:text="Nghêu kho tộ "
+                android:textStyle="italic"
+                android:textSize="45dp"
+                android:layout_gravity="center"
+                android:id="@+id/tv1"
+                android:textColor="@color/black"
+                android:textAllCaps="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nguyên liệu:
+        \n - 1 ký nghêu
+        \n - Tỏi, hành tím, hành lá
+        \n - Nước mắm, đường, dầu ăn, chút nước màu "
+                android:id="@+id/tv2"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/kho_ngheukhoto"
+                android:id="@+id/hinh"
+                android:layout_height="120dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Cách làm:
+        \nBước 1:
+        \nKhi mua nghêu về, bạn rửa sạch nghêu rồi ngâm nghêu trong nước có pha nhiều muối và cắt thêm vài lát ớt. Sau 1 – 2 tiếng, nghêu sẽ nhả hết bụi bẩn và bạn rửa chúng lại lần nữa cho thật sạch. Ngoài ra, bạn cũng có thể ngâm nghêu trong nước vo gạo, tuy nhiên với cách này bạn phải ngâm qua đêm để nghêu nhả hết cát.
+        \nBước 2:
+        \nNghêu khi mua về, bạn đem sơ chế thật sạch. Sau đó, tách vỏ lấy phần thịt nghêu. Hoặc bạn nấu một nồi nước sôi, cho nghêu vào luộc hay hấp và tách lấy thịt, nhưng cách làm này sẽ khiến nghêu không còn ngọt thịt.
+        \nBước 3:
+        \nTỏi và hành tím bạn đem bóc vỏ, tỏi băm nhuyễn, hành tím thì cắt lát.
+        \nBước 4:
+        \nBạn cho thịt nghêu vào tô, ướp với 2 muỗng nước mắm, 1 muỗng đường, ít nước màu, tiêu xay rồi trộn đều lên.
+	    \nBước 5:
+	    \nƯớp trong khoảng 30 phút cho nghêu thấm đều gia vị.
+	    \nBước 6:
+	    \nChuẩn bị một chiếc nồi đất, vì nồi đất sẽ giúp món kho ngon hơn. Bạn cho mỡ nước / dầu ăn vào nồi đất.
+        \nBước 7:
+        \nKhi nồi nóng mỡ, bạn cho tỏi băm vào phi thơm, rồi cho tiếp nghêu vào xào, thấy nghêu xào săn lại bạn cho khoảng 50ml nước nóng vào.
+        \nBước 8:
+        \nVặn nhỏ lửa, kho đến khi nước trong nồi sôi lên thì bạn nêm nếm lại lần nữa cho vừa ăn.
+        \nBước 9:
+        \nKhi nước nghêu gần cạn thì bạn cho 1 muỗng mỡ nước rưới đều lên nghêu, rồi cho hành tím thái lát mỏng và tóp mở vào cùng. Kho thêm khoảng 5 phút thì bạn tắt bếp. Cho hành lá cắt nhỏ cùng tiêu xay lên trên."
+                android:id="@+id/tv10"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Quay về "
+                android:id="@+id/btback"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

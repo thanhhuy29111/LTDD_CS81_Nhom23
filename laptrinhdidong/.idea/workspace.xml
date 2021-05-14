@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2379a621-ac1b-46ec-8ba3-75786f3da2ac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/java/com/example/appnhom23/Chay_dauhunonsotnamtuoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/java/com/example/appnhom23/Chay_dauphucuonlalot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/java/com/example/appnhom23/Chay_goicuonngusac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/java/com/example/appnhom23/Chay_nemchay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/java/com/example/appnhom23/Chay_raucuonchay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/java/com/example/appnhom23/Chien_naccachienxu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/java/com/example/appnhom23/Chien_sungachienxu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/java/com/example/appnhom23/Chien_thitcuonchienxu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/java/com/example/appnhom23/Chien_tomchienxu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/java/com/example/appnhom23/Kho_cakhoto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/java/com/example/appnhom23/Kho_catramkhorieng.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/java/com/example/appnhom23/Kho_ngheukhoto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/java/com/example/appnhom23/Kho_suonkhodua.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/java/com/example/appnhom23/Kho_thitkhotau.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/java/com/example/appnhom23/MonChay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/java/com/example/appnhom23/MonChien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/java/com/example/appnhom23/MonKho.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/java/com/example/appnhom23/TrangMieng.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/java/com/example/appnhom23/TrangMieng_bidohamduong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/java/com/example/appnhom23/TrangMieng_duahaptuyetyen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/java/com/example/appnhom23/TrangMieng_hoaquatrangmieng.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/java/com/example/appnhom23/TrangMieng_kemchuoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/java/com/example/appnhom23/TrangMieng_yaourtbotraicay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/java/com/example/appnhom23/Xao_Thitboxaodauhu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/java/com/example/appnhom23/Xao_mucxaoraucu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/java/com/example/appnhom23/Xao_raumuongxaotoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/java/com/example/appnhom23/Xao_thitheoxaobongcai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/drawable-v24/chay_dauhunonsotnamtuoi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/drawable-v24/chay_dauphucuonlalot.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/drawable-v24/chay_goicuonngusac.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/drawable-v24/chay_nemchay.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/drawable-v24/chay_raucuonchay.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/drawable-v24/trangmieng_bidohamduong.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/drawable-v24/trangmieng_duahaptuyetyen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/drawable-v24/trangmieng_hoaquatrangmieng.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/drawable-v24/trangmieng_kemchuoi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/drawable-v24/trangmieng_yaourtbotraicay.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/layout/activity_cakhoto.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/layout/activity_catramkhorieng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/layout/activity_chay_dauhunonsotnamtuoi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/layout/activity_chay_dauphucuonlalot.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/layout/activity_chay_goicuonngusac.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/layout/activity_chay_nemchay.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/layout/activity_chay_raucuonchay.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/layout/activity_hauchienxu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/layout/activity_mon_chay.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/layout/activity_mon_chien.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/layout/activity_mon_kho.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/layout/activity_mucxaoraucu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/layout/activity_naccachienxu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/layout/activity_ngheukhoto.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/layout/activity_raumuongxaotoi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/layout/activity_sungachienxu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/layout/activity_suonkhodua.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/layout/activity_thitboxaodauhu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/layout/activity_thitcuonchienxu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/layout/activity_thitheoxaobongcai.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/layout/activity_thitkhotau.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/layout/activity_tomchienxu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/layout/activity_trang_mieng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/layout/activity_trang_mieng_bidohamduong.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/layout/activity_trang_mieng_duahaptuyetyen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/layout/activity_trang_mieng_hoaquatrangmieng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/layout/activity_trang_mieng_kemchuoi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/layout/activity_trang_mieng_yaourtbotraicay.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/java/com/example/appnhom23/AdapterMonAn.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/java/com/example/appnhom23/AdapterMonAn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/java/com/example/appnhom23/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/java/com/example/appnhom23/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/java/com/example/appnhom23/MainActivity2.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/java/com/example/appnhom23/Chien_hauchienxu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/java/com/example/appnhom23/MonXao.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/java/com/example/appnhom23/MonXao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/layout/activity_main2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/layout/activity_mon_xao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/layout/activity_mon_xao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/layout/layout_monan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23/app/src/main/res/layout/layout_monan.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master" />
+  </component>
+  <component name="ProjectId" id="1sKaiyeAyPqHyhmIGhMLjWC4OjE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CS81_Nhom23_HuongDanNauAn-master/AppNhom23" />
+    <property name="project.structure.last.edited" value="SDK Location" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2379a621-ac1b-46ec-8ba3-75786f3da2ac" name="Default Changelist" comment="" />
+      <created>1620623865441</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620623865441</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="622" y="275" key="#Notifications" timestamp="1621012487405">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="622" y="275" key="#Notifications/0.0.1536.864@0.0.1536.864" timestamp="1621012487405" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620642539676">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1620642539676" />
+    <state x="417" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1621012509273">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="417" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.864@0.0.1536.864" timestamp="1621012509273" />
+    <state x="549" y="175" key="FileChooserDialogImpl" timestamp="1621012807075">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1621009856171" />
+    <state x="549" y="175" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1621012807075" />
+  </component>
+</project>
